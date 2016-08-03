@@ -1,0 +1,21 @@
+<html ng-app="myapp" ng-init="fname='blank';lname='blank'">
+<head>
+	<title></title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="a5.js"></script>
+</head>
+<body>
+<div class="container"id="a" ng-controller="mycontroller">
+     <h3>  <span class="label label-primary">FIRST NAME </h3>
+	<input type="text" name="name" ng-model="name"placholder"enter user name"><br>
+<h3>  <span class="label label-primary">LAST NAME </h3>
+<input type="text" name="lastname" ng-model="lastname"placholder"enter user name"><br>
+{{name}}
+{{lastname}}	
+
+</div>
+</body>
+</html>
